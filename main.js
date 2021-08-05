@@ -1,5 +1,5 @@
 canvas=document.getElementById("myCanvas");
-ctx=canvas.getContext("2D");
+ctx=canvas.getContext("2d");
 
 rover_width = 100;
 rover_height = 90;
@@ -88,8 +88,8 @@ function left() {
 }
 
 function right() {
-    if(rover_x <= 800) {
-        rover_x=rover_+10;
+    if(rover_x <= 700) {
+        rover_x=rover_x+10;
         console.log("when right arrow is pressed, x = " +rover_x + "and y =" +rover_y);
         bupload();
         rupload();
